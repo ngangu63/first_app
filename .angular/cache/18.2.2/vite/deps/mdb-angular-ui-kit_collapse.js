@@ -1,8 +1,8 @@
 import {
   MdbCollapseDirective,
   MdbCollapseModule
-} from "./chunk-QE3OYUHL.js";
-import "./chunk-FZHMIH5B.js";
+} from "./chunk-DE2XXRKQ.js";
+import "./chunk-PWQ5RXTN.js";
 export {
   MdbCollapseDirective,
   MdbCollapseModule

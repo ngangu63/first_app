@@ -1,10 +1,10 @@
 import {
   coerceBooleanProperty
-} from "./chunk-SZ2K6OV2.js";
+} from "./chunk-UC6DPP3J.js";
 import {
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-5AEDWFUJ.js";
+} from "./chunk-WDZI76NH.js";
 import {
   ChangeDetectorRef,
   Component,
@@ -39,7 +39,7 @@ import {
   ɵɵprojection,
   ɵɵprojectionDef,
   ɵɵqueryRefresh
-} from "./chunk-FZHMIH5B.js";
+} from "./chunk-PWQ5RXTN.js";
 
 // node_modules/mdb-angular-ui-kit/fesm2022/mdb-angular-ui-kit-scrollspy.mjs
 var _c0 = ["mdbScrollspy", ""];

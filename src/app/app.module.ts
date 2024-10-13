@@ -1,8 +1,23 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { MyfooterComponent } from './myfooter/myfooter.component';
+import { MembresComponent } from './membres/membres.component';
+import { NavBulmaComponent } from './nav-bulma/nav-bulma.component';
+import { HomeComponent } from './home/home.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ContactComponent } from './contact/contact.component';
+import { FinanceComponent } from './finance/finance.component';
+import { OthersMembersComponent} from './others-members/others-members.component';
+import { DocumentationComponent } from './documentation/documentation.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { LeadershipComponent } from './leadership/leadership.component';
+import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
+import { OrdreInterieurComponent } from './ordre-interieur/ordre-interieur.component';
 
 // MDB Modules
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -21,10 +36,28 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
+
+
+
+
+const appRoute: Routes =[
+  {path: '', component: HomeComponent},
+  //{path: '', redirectTo: 'Accueil', pathMatch: 'full'},
+  {path: 'Accueil', component: HomeComponent},
+  {path: 'Documetation', component: DocumentationComponent},
+  {path: 'About', component: AboutComponent},
+  {path: 'Contact', component: ContactComponent} ,
+  {path: 'Finance', component: FinanceComponent} ,
+  {path: 'Leadership', component: LeadershipComponent} ,
+  {path: 'Projects', component: ProjectsComponent} , 
+  {path: 'PlanStrategique', component: PlanStrategiqueComponent},
+  {path: 'OrdreInterieur', component: OrdreInterieurComponent},
+
+
+]
 
 @NgModule({
   declarations: [
@@ -48,7 +81,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
-    HeaderComponent
+    HeaderComponent,
+    MyfooterComponent,
+    MembresComponent,
+    ContactComponent,
+    FinanceComponent,
+    OthersMembersComponent,
+    NavBulmaComponent,
+    HomeComponent,
+    DocumentationComponent,
+    AboutComponent,
+    ProjectsComponent,
+    LeadershipComponent,
+    PlanStrategiqueComponent,
+    OrdreInterieurComponent,
+    RouterModule.forRoot(appRoute)
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

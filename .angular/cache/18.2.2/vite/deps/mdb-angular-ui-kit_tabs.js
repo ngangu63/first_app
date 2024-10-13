@@ -2,17 +2,17 @@ import {
   CdkPortalOutlet,
   PortalModule,
   TemplatePortal
-} from "./chunk-JMQPKFMI.js";
+} from "./chunk-OWBZ54WE.js";
 import {
   coerceBooleanProperty
-} from "./chunk-SZ2K6OV2.js";
+} from "./chunk-UC6DPP3J.js";
 import {
   CommonModule,
   DOCUMENT,
   NgClass,
   NgForOf,
   NgIf
-} from "./chunk-5AEDWFUJ.js";
+} from "./chunk-WDZI76NH.js";
 import {
   Component,
   ComponentFactoryResolver$1,
@@ -63,7 +63,7 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate,
   ɵɵviewQuery
-} from "./chunk-FZHMIH5B.js";
+} from "./chunk-PWQ5RXTN.js";
 
 // node_modules/mdb-angular-ui-kit/fesm2022/mdb-angular-ui-kit-tabs.mjs
 var _c0 = ["*"];
