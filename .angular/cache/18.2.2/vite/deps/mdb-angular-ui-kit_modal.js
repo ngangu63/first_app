@@ -1,4 +1,8 @@
 import {
+  ContentObserver,
+  ObserversModule
+} from "./chunk-EK7OQAHX.js";
+import {
   BreakpointObserver
 } from "./chunk-QZJ4PLDT.js";
 import {
@@ -14,17 +18,7 @@ import {
   SHIFT,
   Z,
   ZERO
-} from "./chunk-NZUB6MNK.js";
-import {
-  CdkPortalOutlet,
-  ComponentPortal,
-  PortalModule,
-  TemplatePortal
-} from "./chunk-OWBZ54WE.js";
-import {
-  ContentObserver,
-  ObserversModule
-} from "./chunk-EK7OQAHX.js";
+} from "./chunk-CVMV5XIB.js";
 import {
   Platform,
   _getEventTarget,
@@ -32,6 +26,12 @@ import {
   _getShadowRoot,
   normalizePassiveListenerOptions
 } from "./chunk-UTZZAB2Y.js";
+import {
+  CdkPortalOutlet,
+  ComponentPortal,
+  PortalModule,
+  TemplatePortal
+} from "./chunk-OWBZ54WE.js";
 import {
   coerceElement
 } from "./chunk-UC6DPP3J.js";

@@ -6,7 +6,8 @@ import {
   OverlayConfig,
   OverlayModule,
   OverlayPositionBuilder
-} from "./chunk-NZUB6MNK.js";
+} from "./chunk-CVMV5XIB.js";
+import "./chunk-UTZZAB2Y.js";
 import {
   TemplatePortal
 } from "./chunk-OWBZ54WE.js";
@@ -17,7 +18,6 @@ import {
   transition,
   trigger
 } from "./chunk-VUNKAMCW.js";
-import "./chunk-UTZZAB2Y.js";
 import "./chunk-UC6DPP3J.js";
 import {
   CommonModule
