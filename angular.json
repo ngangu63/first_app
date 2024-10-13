@@ -39,8 +39,6 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/@popperjs/core/dist/umd/popper-base.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ],
             "browser": "src/main.ts"
@@ -50,7 +48,7 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
+                  "maximumWarning": "590kb",
                   "maximumError": "1mb"
                 },
                 {
