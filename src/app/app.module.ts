@@ -18,6 +18,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { LeadershipComponent } from './leadership/leadership.component';
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
 import { OrdreInterieurComponent } from './ordre-interieur/ordre-interieur.component';
+import { MessagesComponent } from './messages/messages.component';
 
 // MDB Modules
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -43,6 +44,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 
 
+
 const appRoute: Routes =[
   {path: '', component: HomeComponent},
   //{path: '', redirectTo: 'Accueil', pathMatch: 'full'},
@@ -55,6 +57,7 @@ const appRoute: Routes =[
   {path: 'Projects', component: ProjectsComponent} , 
   {path: 'PlanStrategique', component: PlanStrategiqueComponent},
   {path: 'OrdreInterieur', component: OrdreInterieurComponent},
+  {path: 'Messages', component:MessagesComponent}
 
 
 ]
@@ -95,6 +98,7 @@ const appRoute: Routes =[
     LeadershipComponent,
     PlanStrategiqueComponent,
     OrdreInterieurComponent,
+    MessagesComponent,
     RouterModule.forRoot(appRoute)
     
     
