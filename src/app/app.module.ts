@@ -46,6 +46,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 
 const appRoute: Routes =[
+
   {path: '', component: HomeComponent},
   //{path: '', redirectTo: 'Accueil', pathMatch: 'full'},
   {path: 'Accueil', component: HomeComponent},

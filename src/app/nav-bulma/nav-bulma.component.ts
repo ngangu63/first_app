@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './nav-bulma.component.scss'
 })
 export class NavBulmaComponent {
+  exitApp(): void {
+   window.open('about:blank', '_blank');
+  }
 
 }
+
+
