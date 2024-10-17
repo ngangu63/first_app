@@ -22,24 +22,20 @@ export class PictureSliderComponent {
      numberpicture = 4;
 
   pictures: Picture[] = [
-    { name: 'John Doe', role: 'Developer', location: 'New York', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Jane Smith', role: 'Designer', location: 'San Francisco', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Alice Johnson', role: 'Manager', location: 'Chicago', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Bob Brown', role: 'Tester', location: 'Austin', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Carol White', role: 'HR', location: 'Boston', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Dave Black', role: 'CTO', location: 'Seattle', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Emma Green', role: 'Support', location: 'Miami', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Frank Gray', role: 'Sales', location: 'Denver', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-
-    { name: 'John2 Doe', role: 'Developer', location: 'New York', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Jane2 Smith', role: 'Designer', location: 'San Francisco', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Alice2 Johnson', role: 'Manager', location: 'Chicago', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Bob2 Brown', role: 'Tester', location: 'Austin', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Carol2 White', role: 'HR', location: 'Boston', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Dave2 Black', role: 'CTO', location: 'Seattle', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Emma2 Green', role: 'Support', location: 'Miami', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Frank2 Gray', role: 'Sales', location: 'Denver', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-
+    { name: 'Léopold Ngoma', role: 'Président , ', location: 'Royaume-Uni', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Junior Nzingu', role: 'Vice-Président Afrique , ', location: 'Kinshasa', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Gerry Mabiala', role: 'Vice-Président Amerique , ', location: "États-Unis", imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Antoine Dede Kavungu', role: 'Vice-Président Europe , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Pascal Mieluzeyi', role: 'Secrétaire , ', location: 'Canada', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Eugenie Malayi', role: 'Trésorière , ', location: 'Canada', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Mitouche', role: 'Commissaire aux comptes , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Remy Miantezila', role: 'Conseiller , Webmaster ; ', location: 'États-Unis', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    
+    
+    
+    { name: 'Niko', role: 'Conseiller , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Mathiew Tusalamo', role: 'Conseiller , ', location: 'Kinshasa', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    
 
   ];
 
