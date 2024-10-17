@@ -1,0 +1,36 @@
+.slider-container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .picture-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .picture-card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .picture-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .info {
+    margin-top: 8px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  

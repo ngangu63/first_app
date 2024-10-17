@@ -38,6 +38,8 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { PictureSliderComponent } from './picture-slider/picture-slider.component';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -51,11 +53,12 @@ const appRoute: Routes =[
 
   {path: '', component: HomeComponent},
   //{path: '', redirectTo: 'Accueil', pathMatch: 'full'},
+  {path: 'Ngembo', component: PictureSliderComponent},
   {path: 'Accueil', component: HomeComponent},
   {path: 'Documetation', component: DocumentationComponent},
   {path: 'Contact', component: ContactComponent} ,
   {path: 'Finance', component: FinanceComponent} ,
-  {path: 'Leadership', component: LeadershipComponent} ,
+  {path: 'PhotoDesMembres', component: LeadershipComponent} ,
   {path: 'Projects', component: ProjectsComponent} , 
   {path: 'PlanStrategique', component: PdfFileComponent},
   {path: 'OrdreInterieur', component: OrdreInterieurComponent},
@@ -101,6 +104,8 @@ const appRoute: Routes =[
     OrdreInterieurComponent,
     MessagesComponent,
     PdfViewerModule,
+    PictureSliderComponent,
+    CommonModule,
     RouterModule.forRoot(appRoute)
     
     

@@ -1,6 +1,6 @@
 import {
   Platform
-} from "./chunk-LPBKZ7EL.js";
+} from "./chunk-4UI7VQEP.js";
 import {
   coerceArray
 } from "./chunk-BIXMNTHS.js";
@@ -229,4 +229,4 @@ function splitQueries(queries) {
 export {
   BreakpointObserver
 };
-//# sourceMappingURL=chunk-SNXOPHZC.js.map
+//# sourceMappingURL=chunk-4LITSRVZ.js.map

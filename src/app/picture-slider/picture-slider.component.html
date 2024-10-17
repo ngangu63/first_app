@@ -1,0 +1,20 @@
+
+
+<div class="slider-container">
+    <div class="controls">
+        <button (click)="previousSlide()" [disabled]="currentSlideIndex === 0">Antérieur</button>
+        <button (click)="nextSlide()" [disabled]="(currentSlideIndex + 1) * (numberpicture) >= pictures.length">Suivant</button>
+      </div>
+    <div class="picture-grid">
+      <div *ngFor="let picture of currentPictures" class="picture-card">
+        <img [src]="picture.imageUrl" alt="{{ picture.name }}"  style=" width: 250px; height: 250px;" />
+               
+        <div class="info">
+          <h3 style="color: blue;">{{ picture.name }}</h3>
+          <p style="color: green">{{ picture.role }}  <span style="color: rgb(255, 119, 0) "> {{ picture.location }} </span> </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  

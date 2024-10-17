@@ -3,7 +3,7 @@ import {
 } from "./chunk-BIXMNTHS.js";
 import {
   CommonModule
-} from "./chunk-EIJL57YZ.js";
+} from "./chunk-3PDJLUV3.js";
 import {
   Component,
   Directive,
