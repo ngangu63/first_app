@@ -1,13 +1,11 @@
-
-<pdf-viewer src="assets/pdfs/Projet_ de_Statuts2.pdf" style="display: block;
-width: 100vw; height: 100vh; ">
-
+<pdf-viewer [src]="pdfSrc" [show-borders]="true" [fit-to-page]="true"
+  style="display: block;width: 100vw; height: 100vh; ">
 </pdf-viewer>
 
 <!-- <div id="outerContainer">
     <div class="pdf-container">
       <pdf-viewer
-        [src]="src"
+        [src]="assets/pdfs/Projet_ de_Statuts2.pdf"
         [rotation]="0"
         [original-size]="false"
         [show-all]="true"
@@ -18,8 +16,8 @@ width: 100vw; height: 100vh; ">
         [render-text]="true"
         [external-link-target]="'blank'"
         [autoresize]="true"
-        [show-borders]="false"
-        style="width: 100%; height: 100vh;"
+        [show-borders]="true"
+        style="width: 100vw; height: 100vh; display: block;"
       ></pdf-viewer>
     </div>
-  </div> -->
+  </div>  -->

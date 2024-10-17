@@ -9,5 +9,6 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
   styleUrl: './pdf-file.component.scss'
 })
 export class PdfFileComponent {
-  // pdfSrc = "https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf";
+
+  pdfSrc = "assets/pdfs/Projet_ de_Statuts3.pdf";
 }
