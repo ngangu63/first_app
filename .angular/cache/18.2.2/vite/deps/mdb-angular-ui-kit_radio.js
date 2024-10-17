@@ -1,13 +1,13 @@
 import {
   FormsModule,
   NG_VALUE_ACCESSOR
-} from "./chunk-2UN7VDA6.js";
+} from "./chunk-CHVPZALY.js";
 import {
   coerceBooleanProperty
-} from "./chunk-UC6DPP3J.js";
+} from "./chunk-BIXMNTHS.js";
 import {
   CommonModule
-} from "./chunk-WDZI76NH.js";
+} from "./chunk-EIJL57YZ.js";
 import {
   ContentChildren,
   Directive,
@@ -30,7 +30,8 @@ import {
   ɵɵhostProperty,
   ɵɵloadQuery,
   ɵɵqueryRefresh
-} from "./chunk-PWQ5RXTN.js";
+} from "./chunk-KGFUSZTU.js";
+import "./chunk-Q2DLDHXN.js";
 
 // node_modules/mdb-angular-ui-kit/fesm2022/mdb-angular-ui-kit-radio.mjs
 var MdbRadioDirective = class _MdbRadioDirective {

@@ -1,6 +1,6 @@
 import {
   coerceBooleanProperty
-} from "./chunk-UC6DPP3J.js";
+} from "./chunk-BIXMNTHS.js";
 import {
   Directive,
   ElementRef,
@@ -16,7 +16,8 @@ import {
   ɵɵdefineNgModule,
   ɵɵdirectiveInject,
   ɵɵlistener
-} from "./chunk-PWQ5RXTN.js";
+} from "./chunk-KGFUSZTU.js";
+import "./chunk-Q2DLDHXN.js";
 
 // node_modules/mdb-angular-ui-kit/fesm2022/mdb-angular-ui-kit-ripple.mjs
 var DEFAULT_RIPPLE_COLOR = [0, 0, 0];

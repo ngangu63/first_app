@@ -1,15 +1,15 @@
 import {
+  coerceBooleanProperty
+} from "./chunk-BIXMNTHS.js";
+import {
   MdbCollapseDirective,
   MdbCollapseModule
-} from "./chunk-DE2XXRKQ.js";
-import {
-  coerceBooleanProperty
-} from "./chunk-UC6DPP3J.js";
+} from "./chunk-QBJEI5D4.js";
 import {
   CommonModule,
   NgIf,
   NgTemplateOutlet
-} from "./chunk-WDZI76NH.js";
+} from "./chunk-EIJL57YZ.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -53,7 +53,8 @@ import {
   ɵɵtext,
   ɵɵtextInterpolate1,
   ɵɵviewQuery
-} from "./chunk-PWQ5RXTN.js";
+} from "./chunk-KGFUSZTU.js";
+import "./chunk-Q2DLDHXN.js";
 
 // node_modules/mdb-angular-ui-kit/fesm2022/mdb-angular-ui-kit-accordion.mjs
 function MdbAccordionItemComponent_3_ng_template_0_Template(rf, ctx) {

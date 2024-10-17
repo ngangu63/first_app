@@ -1,11 +1,11 @@
 import {
   coerceBooleanProperty
-} from "./chunk-UC6DPP3J.js";
+} from "./chunk-BIXMNTHS.js";
 import {
   CommonModule,
   NgForOf,
   NgIf
-} from "./chunk-WDZI76NH.js";
+} from "./chunk-EIJL57YZ.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,
@@ -46,7 +46,8 @@ import {
   ɵɵrestoreView,
   ɵɵtemplate,
   ɵɵtext
-} from "./chunk-PWQ5RXTN.js";
+} from "./chunk-KGFUSZTU.js";
+import "./chunk-Q2DLDHXN.js";
 
 // node_modules/mdb-angular-ui-kit/fesm2022/mdb-angular-ui-kit-carousel.mjs
 var _c0 = ["*"];

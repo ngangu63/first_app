@@ -13,12 +13,13 @@ import { ContactComponent } from './contact/contact.component';
 import { FinanceComponent } from './finance/finance.component';
 import { OthersMembersComponent} from './others-members/others-members.component';
 import { DocumentationComponent } from './documentation/documentation.component';
-import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LeadershipComponent } from './leadership/leadership.component';
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
 import { OrdreInterieurComponent } from './ordre-interieur/ordre-interieur.component';
 import { MessagesComponent } from './messages/messages.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { PdfFileComponent } from './pdf-file/pdf-file.component';
 
 // MDB Modules
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -36,6 +37,7 @@ import { MdbScrollspyModule } from 'mdb-angular-ui-kit/scrollspy';
 import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 
 
@@ -51,12 +53,11 @@ const appRoute: Routes =[
   //{path: '', redirectTo: 'Accueil', pathMatch: 'full'},
   {path: 'Accueil', component: HomeComponent},
   {path: 'Documetation', component: DocumentationComponent},
-  {path: 'About', component: AboutComponent},
   {path: 'Contact', component: ContactComponent} ,
   {path: 'Finance', component: FinanceComponent} ,
   {path: 'Leadership', component: LeadershipComponent} ,
   {path: 'Projects', component: ProjectsComponent} , 
-  {path: 'PlanStrategique', component: PlanStrategiqueComponent},
+  {path: 'PlanStrategique', component: PdfFileComponent},
   {path: 'OrdreInterieur', component: OrdreInterieurComponent},
   {path: 'Messages', component:MessagesComponent}
 
@@ -94,12 +95,12 @@ const appRoute: Routes =[
     NavBulmaComponent,
     HomeComponent,
     DocumentationComponent,
-    AboutComponent,
     ProjectsComponent,
     LeadershipComponent,
     PlanStrategiqueComponent,
     OrdreInterieurComponent,
     MessagesComponent,
+    PdfViewerModule,
     RouterModule.forRoot(appRoute)
     
     
@@ -108,3 +109,4 @@ const appRoute: Routes =[
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+platformBrowserDynamic().bootstrapModule(AppModule);

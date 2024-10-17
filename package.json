@@ -25,6 +25,7 @@
     "bulma": "^1.0.2",
     "jquery": "^3.7.1",
     "mdb-angular-ui-kit": "file:mdb-angular-ui-kit-7.0.0.tgz",
+    "ng2-pdf-viewer": "^10.3.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.14.2"
