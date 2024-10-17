@@ -19,7 +19,7 @@ export interface Picture {
 })
 export class PictureSliderComponent {
        
-     numberpicture = 5;
+     numberpicture = 4;
 
   pictures: Picture[] = [
     { name: 'John Doe', role: 'Developer', location: 'New York', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
