@@ -34,7 +34,8 @@ export class PictureSliderComponent {
     
     
     { name: 'Niko', role: 'Conseiller , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    { name: 'Mathiew Tusalamo', role: 'Conseiller , ', location: 'Kinshasa', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Mathieu Tusalamo', role: 'Conseiller , ', location: 'Kinshasa', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    
     
 
   ];
