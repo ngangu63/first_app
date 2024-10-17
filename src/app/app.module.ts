@@ -14,7 +14,6 @@ import { FinanceComponent } from './finance/finance.component';
 import { OthersMembersComponent} from './others-members/others-members.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { LeadershipComponent } from './leadership/leadership.component';
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
 import { OrdreInterieurComponent } from './ordre-interieur/ordre-interieur.component';
 import { MessagesComponent } from './messages/messages.component';
@@ -53,12 +52,11 @@ const appRoute: Routes =[
 
   {path: '', component: HomeComponent},
   //{path: '', redirectTo: 'Accueil', pathMatch: 'full'},
-  {path: 'Ngembo', component: PictureSliderComponent},
   {path: 'Accueil', component: HomeComponent},
   {path: 'Documetation', component: DocumentationComponent},
   {path: 'Contact', component: ContactComponent} ,
   {path: 'Finance', component: FinanceComponent} ,
-  {path: 'PhotoDesMembres', component: LeadershipComponent} ,
+  {path: 'PhotoDesmembres', component: PictureSliderComponent} ,
   {path: 'Projects', component: ProjectsComponent} , 
   {path: 'PlanStrategique', component: PdfFileComponent},
   {path: 'OrdreInterieur', component: OrdreInterieurComponent},
@@ -99,7 +97,6 @@ const appRoute: Routes =[
     HomeComponent,
     DocumentationComponent,
     ProjectsComponent,
-    LeadershipComponent,
     PlanStrategiqueComponent,
     OrdreInterieurComponent,
     MessagesComponent,
