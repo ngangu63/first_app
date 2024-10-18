@@ -30,11 +30,12 @@ export class PictureSliderComponent {
     { name: 'Eugenie Malayi', role: 'Trésorière , ', location: 'Canada', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
     { name: 'Mitouche', role: 'Commissaire aux comptes , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
     { name: 'Remy Miantezila', role: 'Conseiller , Webmaster ; ', location: 'États-Unis', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
-    
+    { name: 'Daniel Meboya', role: 'Conseiller , ', location: 'Kinshasa', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
     
     
     { name: 'Niko', role: 'Conseiller , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
     { name: 'Mathieu Tusalamo', role: 'Conseiller , ', location: 'Kinshasa', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    
     
     
 
