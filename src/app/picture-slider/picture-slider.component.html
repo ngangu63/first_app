@@ -2,11 +2,11 @@
 
 <div class="slider-container">
     <div class="controls">
-        <button (click)="previousSlide()" [disabled]="currentSlideIndex === 0">Antérieur</button>
+        <button (click)="previousSlide()" [disabled]="currentSlideIndex === 0">Précédent</button>
         <button (click)="nextSlide()" [disabled]="(currentSlideIndex + 1) * (numberpicture) >= pictures.length">Suivant</button>
       </div>
     <div class="picture-grid">
-      <div *ngFor="let picture of currentPictures" class="picture-card">
+      <div *ngFor="let picture of currentPictures" class="picture-card" (click)="openPicture(picture)">
         <img [src]="picture.imageUrl" alt="{{ picture.name }}" style=" width: 300px; height: 350px;"/>
 
         <div class="info">

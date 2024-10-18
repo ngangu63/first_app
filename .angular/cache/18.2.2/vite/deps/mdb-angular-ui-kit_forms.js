@@ -2,13 +2,13 @@ import {
   ContentObserver
 } from "./chunk-XM625VOK.js";
 import {
-  Platform,
-  normalizePassiveListenerOptions
-} from "./chunk-4UI7VQEP.js";
-import {
   FormsModule,
   NgControl
 } from "./chunk-2PV6RPE3.js";
+import {
+  Platform,
+  normalizePassiveListenerOptions
+} from "./chunk-4UI7VQEP.js";
 import {
   coerceBooleanProperty,
   coerceElement,

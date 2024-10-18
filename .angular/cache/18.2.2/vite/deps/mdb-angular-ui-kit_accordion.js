@@ -1,4 +1,8 @@
 import {
+  MdbCollapseDirective,
+  MdbCollapseModule
+} from "./chunk-QBJEI5D4.js";
+import {
   coerceBooleanProperty
 } from "./chunk-BIXMNTHS.js";
 import {
@@ -6,10 +10,6 @@ import {
   NgIf,
   NgTemplateOutlet
 } from "./chunk-3PDJLUV3.js";
-import {
-  MdbCollapseDirective,
-  MdbCollapseModule
-} from "./chunk-QBJEI5D4.js";
 import {
   ChangeDetectionStrategy,
   ChangeDetectorRef,

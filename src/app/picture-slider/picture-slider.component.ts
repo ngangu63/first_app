@@ -59,4 +59,28 @@ export class PictureSliderComponent {
       this.currentSlideIndex--;
     }
   }
+
+  openPicture(picture: Picture): void {
+    const popup = window.open('', '_blank', 'width=400,height=400');
+    if (popup) {
+      popup.document.write(`
+        <html>
+          <head>
+            <title>${picture.name}</title>
+            <style>
+              body { font-family: Arial, sans-serif; text-align: center; }
+              img { width: 100%; height: auto; }
+            </style>
+          </head>
+          <body>
+            <h2>${picture.name}</h2>
+            <p>Role: ${picture.role}</p>
+            <p>Location: ${picture.location}</p>
+            <img src="${picture.imageUrl}" alt="${picture.name}" />
+          </body>
+        </html>
+      `);
+      popup.document.close();
+    }
+  }
 }

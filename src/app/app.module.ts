@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContactComponent } from './contact/contact.component';
 import { FinanceComponent } from './finance/finance.component';
-import { OthersMembersComponent} from './others-members/others-members.component';
+import { OthersMembersComponent } from './others-members/others-members.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { PlanStrategiqueComponent } from './plan-strategique/plan-strategique.component';
@@ -48,19 +48,20 @@ import { CommonModule } from '@angular/common';
 
 
 
-const appRoute: Routes =[
 
-  {path: '', component: HomeComponent},
+const appRoute: Routes = [
+
+  { path: '', component: HomeComponent },
   //{path: '', redirectTo: 'Accueil', pathMatch: 'full'},
-  {path: 'Accueil', component: HomeComponent},
-  {path: 'Documetation', component: DocumentationComponent},
-  {path: 'Contact', component: ContactComponent} ,
-  {path: 'Finance', component: FinanceComponent} ,
-  {path: 'PhotoDesmembres', component: PictureSliderComponent} ,
-  {path: 'Projects', component: ProjectsComponent} , 
-  {path: 'PlanStrategique', component: PdfFileComponent},
-  {path: 'OrdreInterieur', component: OrdreInterieurComponent},
-  {path: 'Messages', component:MessagesComponent}
+  { path: 'Accueil', component: HomeComponent },
+  { path: 'Documetation', component: DocumentationComponent },
+  { path: 'Contact', component: ContactComponent },
+  { path: 'Finance', component: FinanceComponent },
+  { path: 'PhotoDesmembres', component: PictureSliderComponent },
+  { path: 'Projects', component: ProjectsComponent },
+  { path: 'PlanStrategique', component: PdfFileComponent },
+  { path: 'OrdreInterieur', component: OrdreInterieurComponent },
+  { path: 'Messages', component: MessagesComponent }
 
 
 ]
@@ -104,8 +105,8 @@ const appRoute: Routes =[
     PictureSliderComponent,
     CommonModule,
     RouterModule.forRoot(appRoute)
-    
-    
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
