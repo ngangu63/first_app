@@ -19,6 +19,7 @@ import { OrdreInterieurComponent } from './ordre-interieur/ordre-interieur.compo
 import { MessagesComponent } from './messages/messages.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
 import { PdfFileComponent } from './pdf-file/pdf-file.component';
+import { ExcelReaderComponent } from './excel-reader/excel-reader.component';
 
 // MDB Modules
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -56,7 +57,7 @@ const appRoute: Routes = [
   { path: 'Accueil', component: HomeComponent },
   { path: 'Documetation', component: DocumentationComponent },
   { path: 'Contact', component: ContactComponent },
-  { path: 'Finance', component: FinanceComponent },
+  { path: 'Finance', component: ExcelReaderComponent },
   { path: 'PhotoDesmembres', component: PictureSliderComponent },
   { path: 'Projects', component: ProjectsComponent },
   { path: 'PlanStrategique', component: PdfFileComponent },
@@ -104,6 +105,7 @@ const appRoute: Routes = [
     PdfViewerModule,
     PictureSliderComponent,
     CommonModule,
+    ExcelReaderComponent,
     RouterModule.forRoot(appRoute)
 
 
