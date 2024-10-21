@@ -40,6 +40,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { PictureSliderComponent } from './picture-slider/picture-slider.component';
 import { CommonModule } from '@angular/common';
+import { MyNabarComponent } from './my-nabar/my-nabar.component';
 
 
 
@@ -106,6 +107,7 @@ const appRoute: Routes = [
     PictureSliderComponent,
     CommonModule,
     ExcelReaderComponent,
+    MyNabarComponent,
     RouterModule.forRoot(appRoute)
 
 
