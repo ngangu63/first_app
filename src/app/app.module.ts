@@ -41,6 +41,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { PictureSliderComponent } from './picture-slider/picture-slider.component';
 import { CommonModule } from '@angular/common';
 import { MyNabarComponent } from './my-nabar/my-nabar.component';
+import { YoutubeEmbedComponent } from './youtube-embed/youtube-embed.component';
 
 
 
@@ -63,7 +64,8 @@ const appRoute: Routes = [
   { path: 'Projects', component: ProjectsComponent },
   { path: 'PlanStrategique', component: PdfFileComponent },
   { path: 'OrdreInterieur', component: OrdreInterieurComponent },
-  { path: 'Messages', component: MessagesComponent }
+  { path: 'Messages', component: MessagesComponent },
+  { path: 'Musique', component: YoutubeEmbedComponent }
 
 
 ]
@@ -108,6 +110,7 @@ const appRoute: Routes = [
     CommonModule,
     ExcelReaderComponent,
     MyNabarComponent,
+    YoutubeEmbedComponent,
     RouterModule.forRoot(appRoute)
 
 
