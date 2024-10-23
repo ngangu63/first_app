@@ -10,7 +10,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class YoutubeEmbedComponent implements OnInit{
 
-  videoUrl: string = 'https://www.youtube.com/embed/VpvDSz8skb8';
+  videoUrl: string = 'https://www.youtube.com/embed/CDNXNaJ1eQw';
   sanitizedUrl: SafeResourceUrl;
 
   constructor(private sanitizer: DomSanitizer) {

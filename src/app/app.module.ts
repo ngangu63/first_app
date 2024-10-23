@@ -42,7 +42,6 @@ import { PictureSliderComponent } from './picture-slider/picture-slider.componen
 import { CommonModule } from '@angular/common';
 import { MyNabarComponent } from './my-nabar/my-nabar.component';
 import { YoutubeEmbedComponent } from './youtube-embed/youtube-embed.component';
-import { VideoPlayerComponent } from './video-player/video-player.component';
 
 
 
@@ -67,7 +66,6 @@ const appRoute: Routes = [
   { path: 'OrdreInterieur', component: OrdreInterieurComponent },
   { path: 'Messages', component: MessagesComponent },
   { path: 'Musique', component: YoutubeEmbedComponent }
-  // { path: 'Divers', component: VideoPlayerComponent }
 
 
 ]
@@ -113,7 +111,6 @@ const appRoute: Routes = [
     ExcelReaderComponent,
     MyNabarComponent,
     YoutubeEmbedComponent,
-    VideoPlayerComponent,
     RouterModule.forRoot(appRoute)
 
 
