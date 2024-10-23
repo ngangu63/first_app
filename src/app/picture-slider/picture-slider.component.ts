@@ -33,7 +33,7 @@ export class PictureSliderComponent {
     { name: 'Daniel Meboya', role: 'Coordonnateur  , ', location: 'Ouganda', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
     
     
-    { name: 'Niko', role: 'Conseiller , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
+    { name: 'Niko J K Bubuzi', role: 'Conseiller , ', location: 'France', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
     { name: 'Mathieu Tusalamo', role: 'Conseiller , ', location: 'DR Congo', imageUrl: 'assets/images/remy_IMG_1871.jpg' },
     
     
