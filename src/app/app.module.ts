@@ -65,14 +65,21 @@ const appRoute: Routes = [
   { path: 'PlanStrategique', component: PdfFileComponent },
   { path: 'OrdreInterieur', component: OrdreInterieurComponent },
   { path: 'Messages', component: MessagesComponent },
-  { path: 'Musique', component: YoutubeEmbedComponent }
-
+/*   { path: 'video1/:CDNXNaJ1eQw', component: YoutubeEmbedComponent }, 
+  { path: 'video2/:VpvDSz8skb8', component: YoutubeEmbedComponent },  */
+/*   { path: 'video1', component: YoutubeEmbedComponent }, 
+  { path: 'video2', component: YoutubeEmbedComponent },  */
+  { path: 'divers/:videoId', component: YoutubeEmbedComponent },   // Route for Divers
+  { path: 'musique/:videoId', component: YoutubeEmbedComponent },   // Route for Divers
+  { path: 'jeune/:videoId', component: YoutubeEmbedComponent },   // Route for Divers
+    
+///jeune
 
 ]
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent, 
   ],
   imports: [
     BrowserModule,
@@ -107,12 +114,12 @@ const appRoute: Routes = [
     MessagesComponent,
     PdfViewerModule,
     PictureSliderComponent,
-    CommonModule,
     ExcelReaderComponent,
     MyNabarComponent,
     YoutubeEmbedComponent,
+    CommonModule,
+    RouterModule,
     RouterModule.forRoot(appRoute)
-
 
   ],
   providers: [],
