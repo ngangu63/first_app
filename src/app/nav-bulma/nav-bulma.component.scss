@@ -1,1 +1,21 @@
+/* Default styles (mobile-first) */
+.box {
+    display: block;
+  }
+  
+  /* Tablet and larger screens */
+  @media screen and (min-width: 769px) {
+    .box {
+      display: flex;
+    }
+  }
+  
+  /* Desktop and larger screens */
+  @media screen and (min-width: 1024px) {
+    .box {
+      display: inline-block;
+    }
+  }
+  
 @import 'bulma/css/bulma.css'
+
