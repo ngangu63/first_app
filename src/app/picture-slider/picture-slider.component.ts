@@ -27,7 +27,7 @@ export class PictureSliderComponent {
 
   pictures: Picture[] = [
     { name: 'Antoine Dede Kavungu', role: 'Vice-Président Europe , ', location: 'France', imageUrl: 'assets/images/DedeKavunguImag.jpg' , defaultImage: 'assets/images/Remy_Cravate1.jpg'},
-    { name: 'Germaine Nsenga', role: 'Conseillère , ', location: 'France', imageUrl: 'assets/images/NsengaGermaineImg.jpg' , defaultImage: 'assets/images/Remy_Cravate1.jpg'},
+    { name: 'Germaine Nsenga', role: 'Conseillère , ', location: 'France', imageUrl: 'assets/images/NsengaGermaine2Img.jpg' , defaultImage: 'assets/images/Remy_Cravate1.jpg'},
     { name: 'Remy Miantezila', role: 'Conseiller , Webmaster ; ', location: 'États-Unis', imageUrl: 'assets/images/Remy_Cravate1.jpg', defaultImage: 'assets/images/Remy_Cravate1.jpg' },
     { name: 'Léopold Ngoma', role: 'Président , ', location: 'Royaume-Uni', imageUrl: '', defaultImage: 'assets/images/DedeKavunguImag.jpg' },
     { name: 'Junior Nzingu', role: 'Vice-Président Afrique , ', location: 'DR Congo', imageUrl: '' , defaultImage: 'assets/images/DedeKavunguImag.jpg'},
