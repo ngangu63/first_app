@@ -70,7 +70,8 @@ const appRoute: Routes = [
 /*   { path: 'video1', component: YoutubeEmbedComponent }, 
   { path: 'video2', component: YoutubeEmbedComponent },  */
   { path: 'divers/:videoId', component: YoutubeEmbedComponent },   // Route for Divers
-  { path: 'musique/:videoId', component: YoutubeEmbedComponent },   // Route for Divers
+  { path: 'Nostalgie1/:videoId', component: YoutubeEmbedComponent },   // Route for Divers
+  { path: 'Nostalgie2/:videoId', component: YoutubeEmbedComponent },  
   { path: 'jeune/:videoId', component: YoutubeEmbedComponent },   // Route for Divers
   { path: 'yisu/:videoId', component: YoutubeEmbedComponent },
 ///jeune //yisu
